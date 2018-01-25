@@ -1,0 +1,29 @@
+{
+	"name": "your-first-node-module",
+	"version": "0.0.0",
+	"description": "sample mode module created using a yeoman generator Edit",
+	"license": "MIT",
+	"repository": "penance316/your-first-node-module",
+	"author": {
+		"name": "Nero Denney",
+		"email": "penance316@gmail.com",
+		"url": "nerodenney.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}
